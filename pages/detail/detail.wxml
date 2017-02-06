@@ -1,0 +1,6 @@
+<!--pages/detail/detail.wxml-->
+<view>{{title}}</view>
+<block wx:for="{{result}}">
+<view>{{item.author_name}}</view>
+<image src="{{item.thumbnail_pic_s}}"></image>
+</block>
